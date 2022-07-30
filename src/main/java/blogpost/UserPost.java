@@ -1,4 +1,4 @@
-package user.blogpost;
+package main.java.blogpost;
 
 import com.fasterxml.jackson.annotation.*;
 import java.util.HashMap;
@@ -14,7 +14,7 @@ public class UserPost {
     })
 
     @JsonProperty("id")
-    private String id;
+    private int id;
     @JsonProperty("user_id")
     private String userId;
     @JsonProperty("title")
@@ -25,12 +25,12 @@ public class UserPost {
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
  
     @JsonProperty("id")
-    public String getId() {
+    public int getId() {
         return id;
     }
 
     @JsonProperty("id")
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 

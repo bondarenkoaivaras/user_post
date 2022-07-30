@@ -1,7 +1,7 @@
-package user.blogpost;
+package main.java.blogpost;
 
 public enum FilePath {
-    JSONFILE("src/user/blogpost/userblogPosts.json");
+    JSONFILE("output/resources/userblogPosts.json");
 
     public final String value;
 
